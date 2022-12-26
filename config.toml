@@ -1,21 +1,11 @@
-site_title = "MyArxiv"
+site_title = "LibSignal-SignalArxiv"
 limit_days = 7
-cache_url = "https://mlnlp-world.github.io/MyArxiv/cache.json"
+cache_url = "https://github.com/DaRL-LibSignal/SignalArxiv/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.CL"
-title = "Computation and Language"
-
-[[sources]]
-limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
-
-[[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+category = "cs.SY"
+title = "Systems and Control"
 
 [[sources]]
 limit = 150
@@ -24,8 +14,13 @@ title = "Machine Learning"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
+category = "cs.AI"
+title = "Artificial Intelligence"
+
+[[sources]]
+limit = 150
+category = "cs.CE"
+title = "Computational Engineering"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
