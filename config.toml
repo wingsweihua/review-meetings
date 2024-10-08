@@ -1,28 +1,35 @@
 site_title = "LibSignal-SignalArxiv"
 limit_days = 7
-cache_url = "https://github.com/DaRL-LibSignal/SignalArxiv/cache.json"
+cache_url = "https://github.com/wingsweihua/review-meetings/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.SY"
-title = "Systems and Control"
+category = "IIS"
+title = "Information and Intelligent Systems"
 
 [[sources]]
 limit = 150
-category = "cs.LG"
-title = "Machine Learning"
+category = "CCF"
+title = "Computing & Communication Foundations"
 
 [[sources]]
 limit = 150
-category = "cs.AI"
-title = "Artificial Intelligence"
+category = "CNS"
+title = "Computer and Network Systems"
+
 
 [[sources]]
 limit = 150
-category = "cs.CE"
-title = "Computational Engineering"
+category = "OAC"
+title = "Cyberinfrastructure"
+
+
+[[sources]]
+limit = 150
+category = "CMMI"
+title = "Civil, Mechanical, and Manufacturing Innovation"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
-highlight_author = "scripts/highlight_author.rhai"
-highlight_conference = "scripts/highlight_conference.rhai"
+highlight_author = "scripts/highlight_contact.rhai"
+highlight_conference = "scripts/highlight_time.rhai"
